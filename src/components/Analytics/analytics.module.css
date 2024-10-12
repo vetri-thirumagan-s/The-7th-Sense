@@ -1,0 +1,50 @@
+.file_input {
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.image {
+    margin-left: -40px;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.text {
+    width: max-content;
+    margin-left: -100px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+.block {
+    display: block;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 0;
+    border: 2px black dashed;
+    border-radius: 20px;
+    cursor: pointer;
+}
+::file-selector-button {
+    display: none;
+}
+input[type="file"] {
+    color: rgba(0, 0, 0, 0);
+}
+.analyze,
+.chat {
+    background-color: grey;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 18px;
+    font-size: medium;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    color: white;
+    margin-top: 24px;
+}
+.analyze {
+    margin-left: 530px;
+}

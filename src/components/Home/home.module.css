@@ -1,0 +1,25 @@
+.content {
+    background-color: black;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.main_content {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 500%;
+    font-weight: 900;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 150px;
+    margin-bottom: 0%;
+}
+.sub_content {
+    text-align: center;
+    color: aliceblue;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    padding-bottom: 150px;
+    margin: 0;
+    font-size: small;
+}
