@@ -1,0 +1,102 @@
+.body {
+    text-align: center;
+    /* display: flex; */
+}
+.header {
+    font-family: "Poppins";
+    /* margin-top: 80px; */
+}
+/* .benifits1 {
+    text-align: left;
+    padding-right: 24px;
+    padding-left: 60px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    list-style: none;
+}*/
+.price1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: left;
+    font-weight: 900;
+    padding-left: 60px;
+    color: rgb(124, 108, 108);
+}
+/*
+.card1 {
+    background-color: aliceblue;
+    margin-left: 350px;
+    margin-right: 750px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: block;
+}
+
+.benifits2 {
+    text-align: left;
+    padding-right: 24px;
+    margin-left: 60px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    list-style: none;
+}
+.price2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: left;
+    font-weight: 900;
+    margin-left: 60px;
+    color: rgb(124, 108, 108);
+}
+
+.card2 {
+    background-color: aliceblue;
+    margin-left: 350px;
+    margin-right: 750px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: block;
+} */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.card1 {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.benefits1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    text-align: left;
+    padding: 0px 20px 0px 0px;
+}
+.benefits1 li {
+    list-style-image: url("./src/assets/tick.jpeg");
+}
+
+.card2 {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.benefits2 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    text-align: left;
+    padding: 0px 20px 0px 0px;
+}
+.benefits2 li {
+    list-style-image: url("./src/assets/tick.jpeg");
+}
+.price2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: left;
+    font-weight: 900;
+    padding-left: 60px;
+    color: rgb(124, 108, 108);
+}
