@@ -1,0 +1,26 @@
+.convos {
+    height: 67%;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 100px;
+    position: fixed;
+}
+.input_box {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    margin-left: 100px;
+}
+.text_input {
+    width: 80%;
+    height: 8vh;
+    margin-bottom: 20px;
+    border-radius: 25px 0px 0px 25px;
+    text-indent: 40px;
+}
+
+.button {
+    padding: 19px 32px;
+    border-radius: 0px 25px 25px 0px;
+    border-left: none;
+}

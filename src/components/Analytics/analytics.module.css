@@ -13,9 +13,11 @@
 
 .text {
     width: max-content;
-    margin-left: -100px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
+    justify-content: center;
+    margin-left: -50px;
+    margin-top: -30px;
+    font-family: system-ui;
+    font-size: smaller;
 }
 .block {
     display: block;
